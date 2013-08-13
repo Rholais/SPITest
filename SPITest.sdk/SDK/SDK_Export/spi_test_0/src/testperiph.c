@@ -211,7 +211,7 @@ int main()
 
 	print("---Entering data---\n\r");
 	
-	XSpi_ShowString(0,3, "LHC OLED TEST");
+	XSpi_ShowString(0,3, "LHC NSKeyLab OLED TEST ");
 
 	XSpi_RefreshGram();
 
