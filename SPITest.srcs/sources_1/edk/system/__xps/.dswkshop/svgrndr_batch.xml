@@ -1,0 +1,20 @@
+
+<RENDERBATCH>
+
+  <RENDERIMG RASNAME="C:\xup\Zed\SPITest\SPITest.sdk\SDK\SDK_Export\hw\imgs\processing_system7_0.jpg" SVGNAME="C:\xup\Zed\SPITest\SPITest.sdk\SDK\SDK_Export\hw\imgs\processing_system7_0.svg" TMPSVGFN="C:\xup\Zed\SPITest\SPITest.srcs\sources_1\edk\system\__xps\.dswkshop\processing_system7_0.svg"/>
+
+  <RENDERIMG RASNAME="C:\xup\Zed\SPITest\SPITest.sdk\SDK\SDK_Export\hw\imgs\axi_gpio_oled_res.jpg" SVGNAME="C:\xup\Zed\SPITest\SPITest.sdk\SDK\SDK_Export\hw\imgs\axi_gpio_oled_res.svg" TMPSVGFN="C:\xup\Zed\SPITest\SPITest.srcs\sources_1\edk\system\__xps\.dswkshop\axi_gpio_oled_res.svg"/>
+
+  <RENDERIMG RASNAME="C:\xup\Zed\SPITest\SPITest.sdk\SDK\SDK_Export\hw\imgs\axi_interconnect_1.jpg" SVGNAME="C:\xup\Zed\SPITest\SPITest.sdk\SDK\SDK_Export\hw\imgs\axi_interconnect_1.svg" TMPSVGFN="C:\xup\Zed\SPITest\SPITest.srcs\sources_1\edk\system\__xps\.dswkshop\axi_interconnect_1.svg"/>
+
+  <RENDERIMG RASNAME="C:\xup\Zed\SPITest\SPITest.sdk\SDK\SDK_Export\hw\imgs\axi_gpio_oled_dc.jpg" SVGNAME="C:\xup\Zed\SPITest\SPITest.sdk\SDK\SDK_Export\hw\imgs\axi_gpio_oled_dc.svg" TMPSVGFN="C:\xup\Zed\SPITest\SPITest.srcs\sources_1\edk\system\__xps\.dswkshop\axi_gpio_oled_dc.svg"/>
+
+  <RENDERIMG RASNAME="C:\xup\Zed\SPITest\SPITest.sdk\SDK\SDK_Export\hw\imgs\axi_spi_oled.jpg" SVGNAME="C:\xup\Zed\SPITest\SPITest.sdk\SDK\SDK_Export\hw\imgs\axi_spi_oled.svg" TMPSVGFN="C:\xup\Zed\SPITest\SPITest.srcs\sources_1\edk\system\__xps\.dswkshop\axi_spi_oled.svg"/>
+
+  <RENDERIMG RASNAME="C:\xup\Zed\SPITest\SPITest.sdk\SDK\SDK_Export\hw\imgs\axi_gpio_oled_vbat.jpg" SVGNAME="C:\xup\Zed\SPITest\SPITest.sdk\SDK\SDK_Export\hw\imgs\axi_gpio_oled_vbat.svg" TMPSVGFN="C:\xup\Zed\SPITest\SPITest.srcs\sources_1\edk\system\__xps\.dswkshop\axi_gpio_oled_vbat.svg"/>
+
+  <RENDERIMG RASNAME="C:\xup\Zed\SPITest\SPITest.sdk\SDK\SDK_Export\hw\imgs\axi_gpio_oled_vdd.jpg" SVGNAME="C:\xup\Zed\SPITest\SPITest.sdk\SDK\SDK_Export\hw\imgs\axi_gpio_oled_vdd.svg" TMPSVGFN="C:\xup\Zed\SPITest\SPITest.srcs\sources_1\edk\system\__xps\.dswkshop\axi_gpio_oled_vdd.svg"/>
+
+  <RENDERIMG RASNAME="C:\xup\Zed\SPITest\SPITest.sdk\SDK\SDK_Export\hw\imgs\system_blkd.jpg" SVGNAME="C:\xup\Zed\SPITest\SPITest.sdk\SDK\SDK_Export\hw\imgs\system_blkd.svg" TMPSVGFN="C:\xup\Zed\SPITest\SPITest.srcs\sources_1\edk\system\__xps\.dswkshop\system_blkd.svg"/>
+
+</RENDERBATCH>

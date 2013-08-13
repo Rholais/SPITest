@@ -1,0 +1,8 @@
+INTSTYLE=pa
+INFILE=C:\xup\Zed\SPITest\SPITest.runs\impl_1\system_stub_routed.ncd
+OUTFILE=C:\xup\Zed\SPITest\SPITest.runs\impl_1\system_stub.bit
+FAMILY=Zynq
+PART=xc7z020-1clg484
+WORKINGDIR=C:\xup\Zed\SPITest\SPITest.runs\impl_1
+LICENSE=WebPack
+USER_INFO=__0_0_0
