@@ -117,7 +117,7 @@ void XSpi_Clear(void);
 //x,y:起点坐标
 //*p:字符串起始地址
 //用16字体
-void XSpi_ShowString(u8 x,u8 y,const u8 *p);
+void XSpi_ShowString(u8 x,u8 y,const char *p);
 
 //在指定位置显示一个字符,包括部分字符
 //x:0~127
@@ -134,9 +134,6 @@ void XSpi_DrawPoint(u8 x,u8 y,u8 t);
 
 int main()
 {
-
-	u8 axi_Spi_CR_Data = 1;
-	u8 axi_Spi_SR_Data = 1;
 
 	Xil_ICacheEnable();
 	Xil_DCacheEnable();
@@ -190,8 +187,6 @@ int main()
 
 	XGpio_DiscreteWrite(&GpioVdd, 1, 0);
 	volatile int i;
-	int j = 0;
-
 	for(i = 0; i != DELAY; ++i);
 
 	XGpio_DiscreteWrite(&GpioRes, 1, 0);
@@ -260,7 +255,7 @@ void XSpi_Clear(void)
 //x,y:起点坐标
 //*p:字符串起始地址
 //用16字体
-void XSpi_ShowString(u8 x,u8 y,const u8 *p)
+void XSpi_ShowString(u8 x,u8 y,const char *p)
 {
 	#define MAX_CHAR_POSX 122
 	#define MAX_CHAR_POSY 58
