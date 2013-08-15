@@ -213,9 +213,8 @@ int main()
 	print("---Exiting main---\n\r");
 	i = 0;
 	while(Spi.IsBusy){
-		printf("---Entering %d---\n\r", recvBufPtr[i++ % 23]);
-		//Status = XSpi_Transfer(&Spi, sendBufPtr, NULL, 23);
-	}	//µÈ´ý
+		printf("---Spi not complete %d---\n\r", recvBufPtr[i++ % 23]);
+	}
 	
 	Xil_DCacheDisable();
 	Xil_ICacheDisable();
