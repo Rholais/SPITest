@@ -1,7 +1,7 @@
 Release 14.6 Drc P.68d (nt)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-Wed Aug 14 15:43:33 2013
+Fri Aug 16 22:57:31 2013
 
 drc -z system_stub_routed.ncd system_stub.pcf
 

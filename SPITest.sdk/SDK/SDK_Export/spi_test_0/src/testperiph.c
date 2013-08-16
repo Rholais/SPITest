@@ -52,7 +52,7 @@ u8 sendBufPtrInit[30] = {
 	0xD5,
 	0x80,
 	0xA8,
-	0x3F,//默认0X3F(1/64)
+	0x3F,//Default: 0X3F(1/64)
 	0xD3,
 	0x00,
 	0x40,
@@ -110,16 +110,19 @@ static XSpi Spi;
 
 int XSpi_RefreshGram();
 
-//清屏函数,清完屏,整个屏幕是黑色的!和没点亮一样!!!
+//Clean Screen
 void XSpi_Clear(void);
 
-//显示字符串
-//x,y:起点坐标
-//*p:字符串起始地址
-//用16字体
+/*
+ * @param	x,y	is the position of the starting point
+ * @param	p	is the address of the character string to display
+ * Use the font sized 16
+ */
 void XSpi_ShowString(u8 x,u8 y,const char *p);
 
-//在指定位置显示一个字符,包括部分字符
+/*
+ * Display a certain character at the designated position.
+ */
 //x:0~127
 //y:0~63
 //mode:0,反白显示;1,正常显示
