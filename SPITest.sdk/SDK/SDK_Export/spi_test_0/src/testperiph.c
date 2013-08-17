@@ -114,19 +114,19 @@ int XSpi_RefreshGram();
 void XSpi_Clear(void);
 
 /*
- * @param	x,y	is the position of the starting point
- * @param	p	is the address of the character string to display
- * Use the font sized 16
+ * @param	x,y	is the position of the starting point.
+ * @param	p	is the address of the character string to display.
+ * Use the font sized 16.
  */
 void XSpi_ShowString(u8 x,u8 y,const char *p);
 
 /*
  * Display a certain character at the designated position.
+ * @param	x		0~127.
+ * @param	y		0~63.
+ * @param	size	font selection, 12/16.
+ * @param	mode	0, inverse; 1, normal.
  */
-//x:0~127
-//y:0~63
-//mode:0,反白显示;1,正常显示
-//size:选择字体 16/12
 void XSpi_ShowChar(u8 x,u8 y,u8 chr,u8 size,u8 mode);
 
 //画点
