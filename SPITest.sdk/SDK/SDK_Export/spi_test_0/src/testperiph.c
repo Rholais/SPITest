@@ -129,10 +129,12 @@ void XSpi_ShowString(u8 x,u8 y,const char *p);
  */
 void XSpi_ShowChar(u8 x,u8 y,u8 chr,u8 size,u8 mode);
 
-//»­µã
-//x:0~127
-//y:0~63
-//t:1 Ìî³ä 0,Çå¿Õ
+/*
+ * Mark a pixel.
+ * @param	x	0~127.
+ * @param	y	0~63.
+ * @param	t	0, clear; 1, mark.
+ */
 void XSpi_DrawPoint(u8 x,u8 y,u8 t);
 
 int main()
