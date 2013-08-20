@@ -227,7 +227,9 @@ int main()
 	return 0;
 }
 
-//¸üÐÂÏÔ´æµ½LCD
+/*
+ * Renew video memory to LCD.
+ */
 int XSpi_RefreshGram(){
 	u8 i;
 	for(i = 0; i != 8; ++i){
