@@ -6,7 +6,7 @@ D:\Xilinx\14.6\ISE_DS\ISE\.
 -1
 Opened constraints file system_stub.pcf.
 
-Tue Aug 20 22:18:33 2013
+Wed Aug 21 19:49:53 2013
 
 D:\Xilinx\14.6\ISE_DS\ISE\bin\nt\unwrapped\bitgen.exe -w -intstyle pa system_stub_routed.ncd system_stub.bit system_stub.pcf 
 

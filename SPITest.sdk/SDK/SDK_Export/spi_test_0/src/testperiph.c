@@ -110,7 +110,9 @@ static XSpi Spi;
 
 int XSpi_RefreshGram();
 
-//Clean Screen
+/*
+ * Clean the screen.
+ */
 void XSpi_Clear(void);
 
 /*
@@ -247,14 +249,16 @@ int XSpi_RefreshGram(){
 	return Status;
 }
 
-//清屏函数,清完屏,整个屏幕是黑色的!和没点亮一样!!!
+/*
+ * Clean the screen.
+ */
 void XSpi_Clear(void)
 {
 	u8 i,n;
 	for(i=0;i<8;i++)
 		for(n=0;n<128;n++)
 			oledGram[i][n]=0X00;
-	XSpi_RefreshGram();//更新显示
+	XSpi_RefreshGram();// Renew video memory to LCD.
 }
 
 //显示字符串
