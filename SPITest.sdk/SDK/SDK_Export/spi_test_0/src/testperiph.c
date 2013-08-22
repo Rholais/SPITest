@@ -116,6 +116,7 @@ int XSpi_RefreshGram();
 void XSpi_Clear(void);
 
 /*
+ * Display words.
  * @param	x,y	is the position of the starting point.
  * @param	p	is the address of the character string to display.
  * Use the font sized 16.
@@ -261,10 +262,12 @@ void XSpi_Clear(void)
 	XSpi_RefreshGram();// Renew video memory to LCD.
 }
 
-//显示字符串
-//x,y:起点坐标
-//*p:字符串起始地址
-//用16字体
+/*
+ * Display words.
+ * @param	x,y	is the position of the starting point.
+ * @param	p	is the address of the character string to display.
+ * Use the font sized 16.
+ */
 void XSpi_ShowString(u8 x,u8 y,const char *p)
 {
 	#define MAX_CHAR_POSX 122
