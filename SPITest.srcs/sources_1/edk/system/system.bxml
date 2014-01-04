@@ -88,7 +88,7 @@
       </File>
       <File Name="data/system.ncf" Type="NCF">
         <Description>This is NCF file</Description>
-        <Properties IsDisabled="false" IsEditable="false" IsTrackable="true" IsUserDisableable="false" IsVisible="false" Timestamp="1374481679"/>
+        <Properties IsDisabled="false" IsEditable="false" IsTrackable="true" IsUserDisableable="false" IsVisible="false" Timestamp="1381901811"/>
         <UsedIn Val="IMPLEMENTATION"/>
       </File>
     </FileCollection>
